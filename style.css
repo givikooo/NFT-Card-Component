@@ -1,0 +1,127 @@
+:root {
+  --Color-Dark-Blue-Main: #0d192c;
+  --Color-Darl-Blue-Card: #15263f;
+  --Color-Dark-Blue-line: #2e405a;
+  --Color-Blue-Soft: #8bacd9;
+  --Color-Cyan: #00fff8;
+  --Color-White: #fff;
+}
+body {
+  background-color: var(--Color-Dark-Blue-Main);
+}
+p,
+h1 {
+  margin: unset;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: inherit;
+  color: white;
+  text-align: center;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(108, 81%, 41%);
+}
+.card {
+  width: 350px;
+  height: 600px;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+  border-radius: 15px;
+  background-color: var(--Color-Darl-Blue-Card);
+  margin: auto;
+  margin-top: 150px;
+}
+.card-up {
+  padding: 24px;
+  height: 300px;
+  border-radius: 8px;
+}
+.card-up img {
+  width: 100%;
+  border-radius: 8px;
+}
+.card-down {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.title {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--Color-White);
+}
+.text {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: var(--Color-Blue-Soft);
+  margin-top: 16px;
+  line-height: 26px;
+}
+.priceWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+.priceSide,
+.timeSide {
+  display: flex;
+  align-items: center;
+}
+.price {
+  margin-left: 7px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--Color-Cyan);
+}
+.time {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--Color-Blue-Soft);
+  margin-left: 9px;
+}
+.imgWrapper {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+}
+.imgWrapper img {
+  width: 100%;
+}
+.authorWrapper {
+  border-top: 1px solid var(--Color-Dark-Blue-line);
+  padding-top: 15px;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}
+.author, span {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--Color-White);
+  margin-left: 5px;
+}
+.author {
+    margin-left: 10px;
+    color: var(--Color-Blue-Soft);
+}
